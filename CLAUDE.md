@@ -44,6 +44,11 @@ This repo is local-first now. Do not reintroduce hosted-service assumptions, rem
 - Markdown files inside Xcode-synced groups can still produce harmless warnings.
 - For small iOS/mobile fixes, prefer inspection and targeted edits over simulator runs by default.
 
+## Android migration collaboration
+
+- For Android migration work, follow [Docs/android-migration-collaboration.md](/root/app/remodex_android/Docs/android-migration-collaboration.md) as the default execution policy for parity rules, Claude call gatekeeping, bundle planning, and Codex or Claude task division.
+- Prefer Codex as the default implementation path; only use Claude Sonnet or Opus when the document's gatekeeping rules say the task is large enough and stable enough to justify an external batch request.
+
 ## Local quick runbook
 
 ```bash
